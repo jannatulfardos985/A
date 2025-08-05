@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_color"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+        <include layout="@layout/toolbar"
+                android:id="@+id/toolbar_home"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_design"
+            android:text="See All Job Posts"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/black"
+            android:id="@+id/btn_allJob">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_design"
+            android:text="Post a Job"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/black"
+            android:id="@+id/btn_PostJob"
+            android:layout_marginTop="20dp">
+        </Button>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#131314</color>
+    <color name="white">#FBF4F5F8</color>
+    <color name="toolbar_color">#00BCD4</color>
+    <color name="fabcolor">#00BCD4</color>
+    <color name="submit">#0F6212</color>
+
+</resources>
